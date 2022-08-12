@@ -14,7 +14,7 @@ Aplicação web com as informações do Clima desenvolvida em ReactJs. Foi utili
 ![previsaodotempo jpg](https://user-images.githubusercontent.com/10540844/184405952-431124f1-280c-4aee-926b-8f85ef5c388c.PNG)
 <sub>Visão geral do projeto</sub>
 
-![Capturar](https://user-images.githubusercontent.com/10540844/184405599-871708ab-5a91-41a6-af8d-33757403c50c.JPG)
+![Capturar](https://user-images.githubusercontent.com/10540844/184406264-02b4874e-309a-4300-b56a-c94ffacb5445.JPG)
 <sub>Reducer</sub>
 
 ## Projeto em produção:
