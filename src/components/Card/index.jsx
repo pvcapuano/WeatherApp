@@ -14,19 +14,19 @@ export const Card = ({ data }) => {
   return (
     <Container>
       <WrapperTemp>
-        <Temp>Temperatura: {data?.temp}</Temp>
+        <Temp>Temperatura: {data[0]?.temp}</Temp>
       </WrapperTemp>
 
       <WrapperImg>
         <Img
-          src={`https://openweathermap.org/img/wn/${data.icon}@2x.png`}
+          src={`https://openweathermap.org/img/wn/${data[0]?.icon}@2x.png`}
           alt=""
         />
       </WrapperImg>
 
       <WrapperMinMax>
-        <MinMax>Máx. {data?.temp_max}º</MinMax>
-        <MinMax>Mín. {data?.temp_min}º</MinMax>
+        <MinMax>Máx. {data[0]?.temp_max}º</MinMax>
+        <MinMax>Mín. {data[0]?.temp_min}º</MinMax>
       </WrapperMinMax>
     </Container>
   );

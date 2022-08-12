@@ -1,37 +1,35 @@
-const INITIAL_STATE = {
-  data: {
-    temp: "",
-    temp_min: "",
-    temp_max: "",
-  },
+const initialState = {
+  data: [],
   isLoading: false,
   error: false,
 };
 
-export const tempReducer = (state = INITIAL_STATE, action) => {
+export const tempReducer = (state = initialState, action) => {
   console.log(action);
+  console.log(state);
+
   switch (action.type) {
     case "@temp/LOAD_DATA_REQUEST":
       return {
-        data: [],
+        data: [...state.data],
         isLoading: true,
         error: false,
       };
     case "@temp/LOAD_DATA_REQUEST2":
       return {
-        data: [],
+        data: [...state.data],
         isLoading: true,
         error: false,
       };
     case "@temp/LOAD_DATA_REQUEST3":
       return {
-        data: [],
+        data: [...state.data],
         isLoading: true,
         error: false,
       };
     case "@temp/LOAD_DATA_SUCCESS":
       return {
-        data: action.data,
+        data: [...state.data, action.data],
         isLoading: false,
         error: false,
       };

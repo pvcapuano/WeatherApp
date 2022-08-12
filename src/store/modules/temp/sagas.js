@@ -13,7 +13,8 @@ function* loadData() {
 
     const { temp, temp_min, temp_max } = data.main;
     const icon = data.weather[0].icon;
-    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon }));
+    const city = data.name;
+    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon, city }));
   } catch (error) {
     yield put(loadDataError());
   }
@@ -27,7 +28,8 @@ function* loadData2() {
 
     const { temp, temp_min, temp_max } = data.main;
     const icon = data.weather[0].icon;
-    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon }));
+    const city = data.name;
+    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon, city }));
   } catch (error) {
     yield put(loadDataError());
   }
@@ -41,7 +43,8 @@ function* loadData3() {
 
     const { temp, temp_min, temp_max } = data.main;
     const icon = data.weather[0].icon;
-    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon }));
+    const city = data.name;
+    yield put(loadDataSuccess({ temp, temp_min, temp_max, icon, city }));
   } catch (error) {
     yield put(loadDataError());
   }

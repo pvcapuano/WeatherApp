@@ -1,6 +1,5 @@
 import React from "react";
 import { Provider } from "react-redux";
-
 import { store } from "./store";
 import Weather from "./components/Weather";
 import GlobalStyles from "./layout/GlobalStyles";
@@ -11,14 +10,12 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <div className="App">
-          <Routes>
-            <Route path="/" element={<Weather />} />
-            <Route path="temperatura" element={<MinMax />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Weather />} />
+          <Route path="/temperatura" element={<MinMax />} />
+        </Routes>
 
-          <GlobalStyles />
-        </div>
+        <GlobalStyles />
       </BrowserRouter>
     </Provider>
   );

@@ -21,7 +21,6 @@ import {
 import Card from "../Card";
 
 export const Weather = ({
-  data,
   isLoading,
   error,
   loadDataRequest,
