@@ -6,6 +6,8 @@ import {
   WrapperTemp,
   WrapperMinMax,
   OneButton,
+  WrapperButton,
+  CityTitle,
 } from "./styles";
 
 import { connect } from "react-redux";
@@ -24,13 +26,14 @@ export const MinMax = () => {
         </WrapperTemp>
         {requests.map((dt) => (
           <WrapperMinMax>
-            <p>{dt?.city}</p>
+            <CityTitle>{dt?.city}</CityTitle>
             <Minmax>{dt?.temp_min}</Minmax>
             <Minmax>{dt?.temp_max}</Minmax>
           </WrapperMinMax>
         ))}
-
-        <OneButton to="/">Voltar</OneButton>
+        <WrapperButton>
+          <OneButton to="/">Voltar</OneButton>
+        </WrapperButton>
       </Wrapper>
     </Container>
   );

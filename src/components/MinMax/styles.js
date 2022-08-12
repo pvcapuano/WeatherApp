@@ -13,9 +13,9 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 300px;
-  width: 300px;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
   box-shadow: 5px 10px 18px #e1bee7;
   padding: 20px;
   background-color: #ce93d8;
@@ -33,23 +33,36 @@ export const WrapperTemp = styled.div`
   margin-bottom: 20px;
 `;
 
-export const Temp = styled.p`
+export const CityTitle = styled.h2`
   color: #7b1fa2;
-  font-size: 18px;
+  font-weight: 400;
+`;
+
+export const Temp = styled.h1`
+  color: #7b1fa2;
+  font-size: 24px;
   font-weight: 700;
 `;
 
 export const WrapperMinMax = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 `;
 
 export const Minmax = styled.p`
   font-size: 12px;
   color: #7b1fa2;
   font-weight: 700;
+`;
+export const WrapperButton = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
 `;
 
 export const OneButton = styled(Link)`
