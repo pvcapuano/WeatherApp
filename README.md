@@ -11,11 +11,11 @@ Aplicação web com as informações do Clima desenvolvida em ReactJs. Foi utili
 
 ## Projeto
 
-![Captura de Tela 2021-11-16 às 20 37 55](https://user-images.githubusercontent.com/10540844/142083515-d03e731b-5764-4341-923f-5244c7d3ed62.png)
+![previsaodotempo jpg](https://user-images.githubusercontent.com/10540844/184405952-431124f1-280c-4aee-926b-8f85ef5c388c.PNG)
 <sub>Visão geral do projeto</sub>
 
-![Captura de Tela 2021-11-16 às 20 57 31](https://user-images.githubusercontent.com/10540844/142084911-efd8e1c1-a798-404e-b207-8bb348e04b94.png)
-<sub>Pokebola</sub>
+![Capturar](https://user-images.githubusercontent.com/10540844/184405599-871708ab-5a91-41a6-af8d-33757403c50c.JPG)
+<sub>Reducer</sub>
 
 ## Projeto em produção:
 
@@ -43,5 +43,7 @@ Aprender sobre Redux e estudar mais sobre o consumo de APIs.
 
 * O projeto foi separado em 3 componentes: Weather, Card e MinMax. 
 * A API foi consumida via axios. 
-* O Weather é o component onde renderiza as informações. Dentro dele tem o componente Card, onde lista as informações da API.
 * No App.js foram criadas as rotas da aplicação, juntamente com o Provider do Redux. 
+* O Weather é o component onde renderiza as informações. Dentro dele tem o componente Card, onde lista as informações da API.
+* O componente MinMax irá renderizar somente as informações clicadas na tela anterior.  
+
