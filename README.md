@@ -34,6 +34,7 @@ Aplicação web com as informações do Clima desenvolvida em ReactJs. Foi utili
 * Redux
 * Redux-Saga
 * Styled Components
+* Postman
 
 ## Objetivo:
 
