@@ -5,8 +5,6 @@ const initialState = {
 };
 
 export const tempReducer = (state = initialState, action) => {
-  console.log(action);
-  console.log(state);
 
   switch (action.type) {
     case "@temp/LOAD_DATA_REQUEST":
