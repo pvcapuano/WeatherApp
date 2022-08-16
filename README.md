@@ -15,7 +15,7 @@ Aplicação web com as informações do Clima desenvolvida em ReactJs. Foi utili
 <sub>Visão geral do projeto</sub>
 
 ![Capturar](https://user-images.githubusercontent.com/10540844/184406264-02b4874e-309a-4300-b56a-c94ffacb5445.JPG)
-<sub>Reducer</sub>
+<sub>Redux</sub>
 
 ## Projeto em produção:
 
@@ -34,6 +34,7 @@ Aplicação web com as informações do Clima desenvolvida em ReactJs. Foi utili
 * Redux
 * Redux-Saga
 * Styled Components
+* Postman
 
 ## Objetivo:
 
